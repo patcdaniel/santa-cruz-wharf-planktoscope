@@ -1,0 +1,9 @@
+Pillow
+torch
+torchvision
+pandas
+numpy
+matplotlib
+umap-learn
+hdbscan
+tqdm
