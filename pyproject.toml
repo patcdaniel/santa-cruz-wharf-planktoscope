@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "planktoscope-ml"
+version = "0.1.0"
+description = "Planktoscope image clustering, mining, and classification toolkit"
+requires-python = ">=3.10"
+dependencies = [
+    "Pillow",
+    "torch",
+    "torchvision",
+    "timm",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+    "tqdm",
+    "pyarrow",
+    "lancedb",
+    "umap-learn",
+    "hdbscan",
+]
+
+[project.scripts]
+planktoscope-train = "planktoscope_ml.train:main"
+
+[tool.setuptools.packages.find]
+include = ["planktoscope_ml*"]

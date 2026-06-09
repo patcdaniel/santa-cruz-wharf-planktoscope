@@ -161,6 +161,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# Claude
+CLAUDE.md
+
 # Spyder project settings
 .spyderproject
 .spyproject
