@@ -4,6 +4,16 @@ torchvision
 pandas
 numpy
 matplotlib
+scikit-learn
+tqdm
+pyarrow
+
+# Embedding backbone (DINOv2 ViT-S/14)
+timm
+
+# Vector store for the unlabeled-pool index / query-by-example mining
+lancedb
+
+# Unsupervised clustering pipeline (deep_features_umap.ipynb)
 umap-learn
 hdbscan
-tqdm
